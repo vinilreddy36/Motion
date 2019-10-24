@@ -23,7 +23,7 @@ Motion_4WD motion(2,3,4,5,6,7,8,9);
 
 /*
 
-NOTE : *******"IF YOU WANT TO CONTROL MOTOR SPEED THEN ALL THE POSITIVES PINS SHOULD BE "PWM PINS"*******
+NOTE : *******"IF YOU WANT TO CONTROL MOTOR SPEED THEN ALL THE POSITIVES PINS OF THE MOTOR SHOULD BE CONNECTED TO "PWM PINS" OF ARDUINO"*******
 
  Structure
 
@@ -47,7 +47,7 @@ void loop()
  motion.right();
 
 below functions are used for speed control 
-NOTE : *******"IF YOU WANT TO CONTROL MOTOR SPEED THEN ALL THE POSITIVES PINS SHOULD BE "PWM PINS"*******
+NOTE : *******"IF YOU WANT TO CONTROL MOTOR SPEED THEN ALL THE POSITIVES PINS OF THE MOTOR SHOULD BE CONNECTED TO "PWM PINS" OF ARDUINO*******
 
  motion.forward_with_speed(int speed); SPEED: 0 TO 255
  motion.backward_with_speed(int speed);
